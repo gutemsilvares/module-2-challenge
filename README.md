@@ -14,7 +14,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/gutemsilvares)
-- Live Site URL: [Add live site URL here](https://gutemsilvares.github.io/portfolio-my-portfolio/)
+- Live Site URL: [Add live site URL here](https://gutemsilvares.github.io/module-2-challenge/)
 
 ## My process
 
