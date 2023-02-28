@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'SF-Pro-Text', sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+  /* background-color: var(--bg-clr); */
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  /* color: var(--primary-clr); */
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  grid-column: 1 / 2;
+  text-align: end;
+  border-right: 3px solid var(--dark-clr);
+  /* margin-right: 2rem; */
+  padding-right: 2rem;
+}
+
+h2 {
+  font-size: 2.625rem;
+  font-weight: 600;
+  color: var(--dark-clr);
+}
+
+h3 {
+  font-size: 1.375rem;
+  font-weight: 300;
+  color: var(--dark-clr);
+}
+
+.--content {
+  display: grid;
+  grid-template-columns: 15.625rem 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+img {
+  width: 100%;
+}
